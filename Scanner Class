@@ -1,13 +1,13 @@
-import java.util.Scanner;
+import java.util.Scanner;   // import the Scanner class from library.
 public class Test
 {
 public static void main(String[] args)
 {
 Scanner sc = new Scanner(System.in);
-int n = sc.nextInt();
-String s = sc.next();
+int n = sc.nextInt();  // It takes int as a input
+String s = sc.next();   // It takes String as a input
 
-System.out.println(n);
+System.out.println(n);   //Print the input.
 System.out.println(s);
 }
 }
